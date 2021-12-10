@@ -1,9 +1,10 @@
 import React from "react";
-import FunctionalComponent from "./FunctionalComponent";
+// import FunctionalComponent from "./FunctionalComponent";
+import ClassComponent from "./ClassComponent";
 
 class App extends React.Component {
   render() {
-    return <FunctionalComponent />;
+    return <ClassComponent />;
   }
 }
 
